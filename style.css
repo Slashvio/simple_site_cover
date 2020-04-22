@@ -1,0 +1,55 @@
+body {
+    font-family: 'Nanum Brush Script', cursive;
+}
+.main-text {
+    text-align: center;
+    text-transform: uppercase;
+}
+.main-text > p:first-child  {
+    color: #808080;
+    font-size: 11px;
+    font-weight: 600;
+    margin: 20px 0 10px 0;
+}
+.main-text > p:nth-child(2) {
+    color: #0ec8cb;
+    font-weight: 700;
+    font-size: 45px;
+}
+.main-text > p:nth-child(3) {
+    color: #808080;
+    font-weight: 200;
+}
+.product-items {
+    display: flex;
+    text-align: center;
+    width: 74%;
+    margin: 0 auto;
+    padding-top: 25px;
+}
+.option-item {
+    margin: 5px;
+    padding: 25px 5px;
+    height: 255px;
+    background: #f7f7f7;
+}
+.item-name {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 30px 3px;
+    text-transform: uppercase;
+}
+.add-info {
+    font-size: 15px;
+}
+.option-item:hover {
+    box-shadow: 6px 6px 14px 4px #ceccccc4;
+    background: #0ec8cb;
+}
+.option-item:hover > p {
+    color: #ffffff;
+}
+.option-item:hover > .material-icons {
+    color: #ffffff;
+}
